@@ -221,5 +221,5 @@ resultado2 = busca_em_extensao("I18", "A1")
 if not resultado2:
     print("Não foi encontrado um caminho!")
 else:
-    print("Caminho restantante: ", resultado2)
-    print("/nCaminho Final", resultado + resultado2)
+    print("\nCaminho restantante: ", resultado2)
+    print("\nCaminho Final", resultado + resultado2)
