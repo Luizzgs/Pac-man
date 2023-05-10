@@ -222,4 +222,5 @@ if not resultado2:
     print("Não foi encontrado um caminho!")
 else:
     print("\nCaminho restantante: ", resultado2)
+    resultado2.pop(0)
     print("\nCaminho Final", resultado + resultado2)
